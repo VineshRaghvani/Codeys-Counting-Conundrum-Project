@@ -6,12 +6,12 @@ class EndScene extends Phaser.Scene {
     preload() {
       this.load.spritesheet(
         "happy",
-        "codey_happy.png",
+        "https://content.codecademy.com/courses/learn-phaser/Counting/codey_happy.png",
         { frameWidth: 300, frameHeight: 300 }
       );
       this.load.spritesheet(
         "sad",
-        "codey_sad.png",
+        "https://content.codecademy.com/courses/learn-phaser/Counting/codey_sad.png",
         { frameWidth: 300, frameHeight: 300 }
       );
     }

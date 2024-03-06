@@ -6,7 +6,7 @@ class StartScene extends Phaser.Scene {
     preload() {
       this.load.spritesheet(
         "searching",
-        "codey_searching.png",
+        "https://content.codecademy.com/courses/learn-phaser/Counting/codey_searching.png",
         { frameWidth: 300, frameHeight: 300 }
       );
     }
